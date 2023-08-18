@@ -6,9 +6,9 @@ import { MdMail } from "react-icons/md"
 const Footer = () => {
     return (
         <div class="footer">
-            <span class="icon"><FaGithub /></span>
-            <span class="icon"><FaLinkedinIn /></span>
-            <span class="icon"><MdMail /></span>
+            <a href="https://github.com/mishkebab" class="icon"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/mishabansal/" class="icon"><FaLinkedinIn /></a>
+            <a href="" class="icon"><MdMail /></a>
         </div>
     )
 }
