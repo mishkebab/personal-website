@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    background-color: lightcoral;
+    margin: 10px;
+}

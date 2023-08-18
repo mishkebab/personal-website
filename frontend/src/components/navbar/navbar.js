@@ -1,16 +1,18 @@
+import "./navbar.css"
+
 const NavBar = () => {
     return (
-        <>
-            <h1>Hi, I'm Misha</h1>
-            <ul>
-                <li>
-                <a href="/">about</a>
+        <div class="navbar">
+            <h1 class="navbar-heading">Misha Bansal</h1>
+            <div class="navbar-menu">
+                <li class="navbar-menu-item">
+                    <a href="/" class="navbar-menu-link">about</a>
                 </li>
-                <li>
-                <a href="/projects">projects</a>
+                <li class="navbar-menu-item">
+                    <a href="/projects" class="navbar-menu-link">projects</a>
                 </li>
-            </ul>
-        </>
+            </div>
+        </div>
     )
 }
 
