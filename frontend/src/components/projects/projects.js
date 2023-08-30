@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./projects.css"
 import Footer from "../footer/footer";
 import ScrollImage from "../../assets/scroll-front-image.png"

@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./footer.css"
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedinIn } from "react-icons/fa"

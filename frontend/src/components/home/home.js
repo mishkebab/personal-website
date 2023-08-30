@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./home.css"
 import Footer from "../footer/footer";
 
