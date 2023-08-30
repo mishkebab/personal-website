@@ -2,6 +2,7 @@ import "./projects.css"
 import Footer from "../footer/footer";
 import ScrollImage from "../../assets/scroll-front-image.png"
 import RendezImage from "../../assets/rendezview-front-image.png"
+import SharkGPTImage from "../../assets/shark-gpt-front-image.png"
 
 
 const Projects = () => {
@@ -20,6 +21,13 @@ const Projects = () => {
             </p>
             <br />
             <img src={RendezImage}/>
+            <br />
+            <p>
+                <a href="https://shark-gpt-app-9bdb98ecb214.herokuapp.com/" class="navbar-menu-link" target="_blank">SharkGPT</a>
+                : Uses ChatGPT to help entrepreneurs pitch their startup ideas to a panel of investors
+            </p>
+            <br />
+            <img src={SharkGPTImage}/>
             <br />
             <Footer />
         </div>

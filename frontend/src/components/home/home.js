@@ -4,7 +4,7 @@ import Footer from "../footer/footer";
 const Home = () => {
     return (
         <div class="home">
-            <p>VC turned software engineer. Interested working on problems. </p>
+            <p>VC turned software engineer. Interested in tech that is going to change the world. Can usually be found outdoors if not coding. </p>
             <br />
             <p>Past gigs:</p>
             <ul>
